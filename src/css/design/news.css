@@ -1,0 +1,40 @@
+
+@import url('fontsColors.css');
+
+
+video.home {
+    width: 50%;
+    margin: 5%;
+}
+
+
+
+
+  
+
+/* Styles for larger screens (PC) */
+@media screen and (min-width: 768px) {
+    video.home {
+        width: 50%;
+        margin: 5%;
+    }
+  
+  
+}
+
+
+
+
+
+/* Styles for smaller screens (smartphones) */
+@media screen and (max-width: 767px) {
+    video.home {
+        width: 90%;
+        margin-top: 10%;
+        float: center;
+    }
+
+
+
+}
+

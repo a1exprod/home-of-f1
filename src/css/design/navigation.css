@@ -1,0 +1,103 @@
+@import url('fontsColors.css');
+
+
+.navWidth {
+
+    width:100%
+}
+
+li {
+    list-style-type: none;
+}
+
+
+nav {
+    background-color: var(--f1-red);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 2rem;
+    padding: 0 1rem;
+
+}
+
+nav a {
+    font-family: F1-bold;
+    font-size: 2.5vh;
+    float: left;
+    display: block;
+    color: white;
+    text-align: left;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    margin-left:5vh;
+    text-decoration: none;
+}
+
+
+.site-title {
+    font-size: 2rem;
+  }
+  
+  .nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .nav a {
+    color: inherit;
+    text-decoration: none;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    padding: .25rem;
+  }
+  
+
+
+img.nav-logo {
+    height: 3vh; 
+    margin-top: 1.5vh;
+    margin-bottom: 1.5vh;
+    float: left;
+  }
+
+
+
+  
+
+/* Styles for larger screens (PC) */
+@media screen and (min-width: 768px) {
+
+  
+  
+  }
+  
+  
+  
+  
+  
+  /* Styles for smaller screens (smartphones) */
+  @media screen and (max-width: 767px) {
+  
+    img.nav-logo {
+        height: 2vh; 
+        margin-top: 2vh;
+        margin-bottom: 1vh;
+        float: left;
+      }
+
+      nav a {
+        font-size: 1em;
+        background-color: transparent;
+        font-family: f1-regular;
+        float: right;
+      }
+
+  
+  }
+

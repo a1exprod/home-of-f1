@@ -1,0 +1,117 @@
+
+
+
+
+/* Common styles for both PC and smartphone */
+
+
+img.flag {
+  width: 5vh;
+  float: center;
+}
+
+img.trackmap {
+  height: 10vh;
+  float:center;
+}
+
+.schedule-space {
+  width: 30%;
+  float: left;
+  margin-bottom: 20vh;
+  margin-left: 3vh;
+  height: 40vh;
+  text-align: center;
+}
+
+.schedule-past {
+  border-right: 0.5vh solid var(--f1-grey);
+  border-bottom:0.5vh solid var(--f1-grey);
+  color:grey;
+  padding-left: 2vh;
+  padding-right: 2vh;
+  padding-top: 1vh;
+  border-bottom-left-radius: 9px;
+  border-top-right-radius: 9px;
+  border-bottom-right-radius: 4vh;
+  font-size: 2vh;
+}
+
+.schedule-active {
+  border-right: 2vh solid var(--f1-red);
+  border-bottom:2vh solid var(--f1-red);
+  padding-left: 2vh;
+  padding-right: 2vh;
+  padding-top: 1vh;
+  border-bottom-left-radius: 17px;
+  border-top-right-radius: 17px;
+  border-bottom-right-radius: 4vh;
+  font-size: 2vh;
+}
+
+
+
+.schedule-upcoming {
+  border-right: 1vh solid var(--f1-grey);
+  border-bottom: 1vh solid var(--f1-grey);
+  padding-left: 2vh;
+  padding-right: 2vh;
+  padding-top: 1vh;
+  border-bottom-left-radius: 9px;
+  border-top-right-radius: 9px;
+  border-bottom-right-radius: 4vh;
+  font-size: 2vh;
+}
+
+h2.schedule {
+  font-family: f1-black;
+  width: 100%;
+}
+
+p.schedule {
+  font-family: f1-wide;
+  width: 100%;
+}
+
+.schedule {
+  font-family: f1-boldweb;
+  width: 100%;
+}
+
+
+
+
+
+/* Styles for larger screens (PC) */
+@media screen and (min-width: 768px) {
+
+
+  .schedule-upcoming .schedule-active .schedule-past {
+    width: 33%; 
+  }
+
+}
+
+
+
+
+
+/* Styles for smaller screens (smartphones) */
+@media screen and (max-width: 767px) {
+  .schedule-space {
+    float: none;
+    width: 90%;
+    height: auto; /* Adjust height as needed */
+    margin-bottom: 30vh; /* Adjust margin-bottom as needed */
+    margin: 1em;
+  }
+  p.schedule {
+    font-family: f1-italic;
+    width: 100%;
+  }
+}
+
+
+
+
+
