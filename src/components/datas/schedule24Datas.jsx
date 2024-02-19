@@ -18,62 +18,49 @@
 const schedule24Data = [
   
 
-    {
-      name: 'Formula 1 Aramco Pre Season Testing 2024',
-      round: '',
-      country: 'Bahrain',
-      destination: 'Sakhir',
-      circuit: 'Bahrain International Circuit',
-      type: 0,
-
-      startDate: '2024-02-21T00:00:00',
-      endDate: '2024-02-23T13:08:00',
-      displayDate: '21.02. - 23.02.2024',
-      flag: '/mediacontent/logos/f1-red.svg',
-      trackmap: 'TCB',
-      trackinfo: 'trackinfo_bah',
-    },
-
-
-
-    {
-      name: 'Formula 1 Gulf Air Bahrain Grand Prix 2024',
-      round: '1',
-      country: 'Bahrain',
-      destination: 'Sakhir',
-      circuit: 'Bahrain International Circuit',
-      type: 0,
-
-      startDate: '2024-02-28T00:00:00',
-      endDate: '2024-03-02T23:59:59',
-      displayDate: '28.02. - 02.03.2024',
-
-      flag: './mediacontent/images/flags/bah.avif',
-      trackmap: './mediacontent/images/tracks/bah.avif',
-      trackinfo: 'trackinfo_bah',
-    },
-
-
-
-    {
-      name: 'Formula 1 STC Saudi Arabian Grand Prix 2024',
-      round: '2',
-      country: 'Saudi Arabia',
-      destination: 'Jeddah',
-      circuit: 'Jeddah Corniche Circuit',
-      type: 0,
-
-      startDate: '2024-03-06T00:00:00',
-      endDate: '2024-03-09T23:59:59',
-      displayDate: '06.03. - 09.03.2024',
-
-      flag: './mediacontent/images/flags/sau.avif',
-      trackmap: './mediacontent/images/tracks/sau.avif',
-      trackinfo: 'trackinfo_sau',
+  {
+    name: 'Formula 1 Aramco Pre Season Testing 2024',
+    round: '',
+    country: 'Bahrain',
+    destination: 'Sakhir',
+    circuit: 'Bahrain International Circuit',
+    type: 0,
+    startDate: '2024-02-21T00:00:00',
+    endDate: '2024-02-23T13:08:00',
+    displayDate: '21.02. - 23.02.2024',
+    flag: `${process.env.PUBLIC_URL}/mediacontent/logos/f1-red.svg`,
+    trackmap: 'TCB',
+    trackinfo: 'trackinfo_bah',
   },
-
-
-
+  {
+    name: 'Formula 1 Gulf Air Bahrain Grand Prix 2024',
+    round: '1',
+    country: 'Bahrain',
+    destination: 'Sakhir',
+    circuit: 'Bahrain International Circuit',
+    type: 0,
+    startDate: '2024-02-28T00:00:00',
+    endDate: '2024-03-02T23:59:59',
+    displayDate: '28.02. - 02.03.2024',
+    flag: `${process.env.PUBLIC_URL}/mediacontent/images/flags/bah.avif`,
+    trackmap: `${process.env.PUBLIC_URL}/mediacontent/images/tracks/bah.avif`,
+    trackinfo: 'trackinfo_bah',
+  },
+  {
+    name: 'Formula 1 STC Saudi Arabian Grand Prix 2024',
+    round: '2',
+    country: 'Saudi Arabia',
+    destination: 'Jeddah',
+    circuit: 'Jeddah Corniche Circuit',
+    type: 0,
+    startDate: '2024-03-06T00:00:00',
+    endDate: '2024-03-09T23:59:59',
+    displayDate: '06.03. - 09.03.2024',
+    flag: `${process.env.PUBLIC_URL}/mediacontent/images/flags/sau.avif`,
+    trackmap: `${process.env.PUBLIC_URL}/mediacontent/images/tracks/sau.avif`,
+    trackinfo: 'trackinfo_sau',
+  },
+  // Continue with similar changes for all other datasets
   {
     name: 'Formula 1 Rolex Australian Grand Prix 2024',
     round: '3',
@@ -81,18 +68,13 @@ const schedule24Data = [
     destination: 'Melbourne',
     circuit: 'Melbourne Grand Prix Circuit',
     type: 0,
-
     startDate: '2024-03-21T00:00:00',
     endDate: '2024-03-24T23:59:59',
     displayDate: '21.03. - 24.03.2024',
-
-    flag: `${process.env.PUBLIC_URL}/mediacontent/images/flags/aus.png`,
+    flag: `${process.env.PUBLIC_URL}/mediacontent/images/flags/aus.avif`,
     trackmap: `${process.env.PUBLIC_URL}/mediacontent/images/tracks/aus.avif`,
     trackinfo: 'trackinfo_aus',
   },
-
-
-
   {
     name: 'Formula 1 MSC Cruises Japanese Grand Prix 2024',
     round: '4',
@@ -100,18 +82,14 @@ const schedule24Data = [
     destination: 'Suzuka',
     circuit: 'Suzuka Racing Course',
     type: 0,
-
     startDate: '2024-04-04T00:00:00',
     endDate: '2024-04-07T23:59:59',
     displayDate: '04.04. - 07.04.2024',
-
-    flag: './mediacontent/images/flags/jap.avif',
-    trackmap: './mediacontent/images/tracks/jap.avif',
+    flag: `${process.env.PUBLIC_URL}/mediacontent/images/flags/jap.avif`,
+    trackmap: `${process.env.PUBLIC_URL}/mediacontent/images/tracks/jap.avif`,
     trackinfo: 'trackinfo_jap',
   },
-
-
-
+  
   {
     name: 'Formula 1 Crypto.com Miami Grand Prix 2024',
     round: '5',
@@ -119,16 +97,13 @@ const schedule24Data = [
     destination: 'Miami',
     circuit: 'Miami International Autodrome',
     type: 0,
-
     startDate: '2024-05-02T00:00:00',
     endDate: '2024-05-05T23:59:59',
     displayDate: '02.05. - 05.05.2024',
-
-    flag: './mediacontent/images/flags/usa.avif',
-    trackmap: './mediacontent/images/tracks/mia.avif',
+    flag: `${process.env.PUBLIC_URL}/mediacontent/images/flags/usa.avif`,
+    trackmap: `${process.env.PUBLIC_URL}/mediacontent/images/tracks/mia.avif`,
     trackinfo: 'trackinfo_mia',
   },
-
 
 
   {
@@ -138,18 +113,14 @@ const schedule24Data = [
     destination: 'Imola',
     circuit: 'Autodormo Enzo e Dino Ferrari',
     type: 0,
-
     startDate: '2024-05-16T00:00:00',
     endDate: '2024-05-19T23:59:59',
     displayDate: '16.05. - 19.05.2024',
-
-    flag: './mediacontent/images/flags/ita.avif',
-    trackmap: './mediacontent/images/tracks/imo.avif',
+    flag: `${process.env.PUBLIC_URL}/mediacontent/images/flags/ita.avif`,
+    trackmap: `${process.env.PUBLIC_URL}/mediacontent/images/tracks/imo.avif`,
     trackinfo: 'trackinfo_imo',
   },
-
-
-
+  
   {
     name: 'Formula 1 Grand Prix de Monaco 2024',
     round: '7',
@@ -157,18 +128,14 @@ const schedule24Data = [
     destination: 'Monte-Carlo',
     circuit: 'Circuit de Monaco',
     type: 0,
-
     startDate: '2024-06-23T00:00:00',
     endDate: '2024-06-26T23:59:59',
     displayDate: '23.06. - 26.06.2024',
-
-    flag: './mediacontent/images/flags/mon.avif',
-    trackmap: './mediacontent/images/tracks/mon.avif',
+    flag: `${process.env.PUBLIC_URL}/mediacontent/images/flags/mon.avif`,
+    trackmap: `${process.env.PUBLIC_URL}/mediacontent/images/tracks/mon.avif`,
     trackinfo: 'trackinfo_mon',
   },
-
-
-
+  
   {
     name: 'Formula 1 Grand Prix Du Canada 2024',
     round: '8',
@@ -176,16 +143,13 @@ const schedule24Data = [
     destination: 'Montreal',
     circuit: 'Circuit Gilles-Villeneuve',
     type: 0,
-
     startDate: '2024-06-06T00:00:00',
     endDate: '2024-06-09T23:59:59',
     displayDate: '06.06. - 09.06.2024',
-
-    flag: './mediacontent/images/flags/can.avif',
-    trackmap: './mediacontent/images/tracks/can.avif',
+    flag: `${process.env.PUBLIC_URL}/mediacontent/images/flags/can.avif`,
+    trackmap: `${process.env.PUBLIC_URL}/mediacontent/images/tracks/can.avif`,
     trackinfo: 'trackinfo_can',
   },
-
 
 
   {
@@ -195,18 +159,14 @@ const schedule24Data = [
     destination: 'Barcelona',
     circuit: 'Circuit de Barcelona-Catalyna',
     type: 0,
-
     startDate: '2024-06-20T00:00:00',
     endDate: '2024-06-23T23:59:59',
     displayDate: '23.06. - 26.06.2024',
-
-    flag: './mediacontent/images/flags/spa.avif',
-    trackmap: './mediacontent/images/tracks/spa.avif',
+    flag: `${process.env.PUBLIC_URL}/mediacontent/images/flags/spa.avif`,
+    trackmap: `${process.env.PUBLIC_URL}/mediacontent/images/tracks/spa.avif`,
     trackinfo: 'trackinfo_spa',
   },
-
-
-
+  
   {
     name: 'Formula 1 Quatar Airways Austrian Grand Prix 2024',
     round: '10',
@@ -214,16 +174,13 @@ const schedule24Data = [
     destination: 'Spielberg',
     circuit: 'Red Bull Ring',
     type: 0,
-
     startDate: '2024-06-27T00:00:00',
     endDate: '2024-06-30T23:59:59',
     displayDate: '27.06. - 30.06.2024',
-
-    flag: './mediacontent/images/flags/aut.avif',
-    trackmap: './mediacontent/images/tracks/aut.avif',
+    flag: `${process.env.PUBLIC_URL}/mediacontent/images/flags/aut.avif`,
+    trackmap: `${process.env.PUBLIC_URL}/mediacontent/images/tracks/aut.avif`,
     trackinfo: 'trackinfo_aut',
   },
-
 
 
   {
@@ -238,8 +195,8 @@ const schedule24Data = [
     endDate: '2024-07-07T23:59:59',
     displayDate: '04.07. - 07.07.2024',
 
-    flag: './mediacontent/images/flags/bri.avif',
-    trackmap: './mediacontent/images/tracks/bri.avif',
+    flag: `${process.env.PUBLIC_URL}mediacontent/images/flags/bri.avif`,
+    trackmap: `${process.env.PUBLIC_URL}/mediacontent/images/tracks/bri.avif`,
     trackinfo: 'trackinfo_bri',
   },
 
@@ -257,8 +214,9 @@ const schedule24Data = [
     endDate: '2024-07-21T23:59:59',
     displayDate: '18.07. - 21.07.2024',
 
-    flag: './mediacontent/images/flags/hun.avif',
-    trackmap: './mediacontent/images/tracks/hun.avif',
+    flag: `${process.env.PUBLIC_URL}/mediacontent/images/flags/hun.avif`,
+    trackmap: `${process.env.PUBLIC_URL}/mediacontent/images/tracks/hun.avif`,
+    
     trackinfo: 'trackinfo_hun',
   },
 
@@ -276,8 +234,9 @@ const schedule24Data = [
     endDate: '2024-07-28T23:59:59',
     displayDate: '25.07. - 28.07.2024',
 
-    flag: './mediacontent/images/flags/bel.avif',
-    trackmap: './mediacontent/images/tracks/bel.avif',
+    flag: `${process.env.PUBLIC_URL}/mediacontent/images/flags/bel.avif`,
+    trackmap: `${process.env.PUBLIC_URL}/mediacontent/images/tracks/bel.avif`,
+    
     trackinfo: 'trackinfo_bel',
   },
 
@@ -294,7 +253,7 @@ const schedule24Data = [
     endDate: '2024-08-18T23:59:59',
     displayDate: '29.07. - 18.08.2024',
 
-    flag: './mediacontent/logos/f1-white.svg',
+    flag: `${process.env.PUBLIC_URL}/mediacontent/logos/f1-white.svg`,
     trackmap: 'TCB',
     trackinfo: 'TCB',
   },
@@ -313,8 +272,9 @@ const schedule24Data = [
     endDate: '2024-08-25T23:59:59',
     displayDate: '22.08. - 25.08.2024',
 
-    flag: './mediacontent/images/flags/ned.avif',
-    trackmap: './mediacontent/images/tracks/ned.avif',
+    flag: `${process.env.PUBLIC_URL}/mediacontent/images/flags/ned.avif`,
+    trackmap: `${process.env.PUBLIC_URL}/mediacontent/images/tracks/ned.avif`,
+    
     trackinfo: 'trackinfo_ned',
   },
 
@@ -332,8 +292,9 @@ const schedule24Data = [
     endDate: '2024-09-01T23:59:59',
     displayDate: '29.08. - 01.09.2024',
 
-    flag: './mediacontent/images/flags/ita.avif',
-    trackmap: './mediacontent/images/tracks/ita.avif',
+    flag: `${process.env.PUBLIC_URL}/mediacontent/images/flags/ita.avif`,
+    trackmap: `${process.env.PUBLIC_URL}/mediacontent/images/tracks/ita.avif`,
+    
     trackinfo: 'trackinfo_ita',
   },
 
@@ -351,8 +312,9 @@ const schedule24Data = [
     endDate: '2024-09-15T23:59:59',
     displayDate: '12.09. - 15.09.2024',
 
-    flag: './mediacontent/images/flags/aze.avif',
-    trackmap: './mediacontent/images/tracks/aze.avif',
+    flag: `${process.env.PUBLIC_URL}/mediacontent/images/flags/aze.avif`,
+    trackmap: `${process.env.PUBLIC_URL}/mediacontent/images/tracks/aze.avif`,
+    
     trackinfo: 'trackinfo_aze',
   },
 
@@ -370,8 +332,9 @@ const schedule24Data = [
     endDate: '2024-09-22T23:59:59',
     displayDate: '19.09. - 22.09.2024',
 
-    flag: './mediacontent/images/flags/sin.avif',
-    trackmap: './mediacontent/images/tracks/sin.avif',
+    flag: `${process.env.PUBLIC_URL}/mediacontent/images/flags/sin.avif`,
+    trackmap: `${process.env.PUBLIC_URL}/mediacontent/images/tracks/sin.avif`,
+    
     trackinfo: 'trackinfo_sin',
   },
 
@@ -389,8 +352,9 @@ const schedule24Data = [
     endDate: '2024-10-20T23:59:59',
     displayDate: '17.10. - 20.10.2024',
 
-    flag: './mediacontent/images/flags/usa.avif',
-    trackmap: './mediacontent/images/tracks/tex.avif',
+    flag: `${process.env.PUBLIC_URL}/mediacontent/images/flags/usa.avif`,
+    trackmap: `${process.env.PUBLIC_URL}/mediacontent/images/tracks/tex.avif`,
+    
     trackinfo: 'trackinfo_tex',
   },
 
@@ -408,8 +372,9 @@ const schedule24Data = [
     endDate: '2024-10-27T23:59:59',
     displayDate: '25.07. - 28.07.2024',
 
-    flag: './mediacontent/images/flags/mex.avif',
-    trackmap: './mediacontent/images/tracks/mex.avif',
+    flag: `${process.env.PUBLIC_URL}/mediacontent/images/flags/mex.avif`,
+    trackmap: `${process.env.PUBLIC_URL}/mediacontent/images/tracks/mex.avif`,
+    
     trackinfo: 'trackinfo_mex',
   },
 
@@ -426,9 +391,9 @@ const schedule24Data = [
     startDate: '2024-10-31T00:00:00',
     endDate: '2024-11-03T23:59:59',
     displayDate: '31.10. - 03.11.2024',
-
-    flag: './mediacontent/images/flags/bra.avif',
-    trackmap: './mediacontent/images/tracks/bra.avif',
+    flag: `${process.env.PUBLIC_URL}/mediacontent/images/flags/bra.avif`,
+    trackmap: `${process.env.PUBLIC_URL}/mediacontent/images/tracks/bra.avif`,
+    
     trackinfo: 'trackinfo_bra',
   },
 
@@ -446,8 +411,9 @@ const schedule24Data = [
     endDate: '2024-11-23T23:59:59',
     displayDate: '20.11. - 23.11.2024',
 
-    flag: './mediacontent/images/flags/usa.avif',
-    trackmap: './mediacontent/images/tracks/veg.avif',
+    flag: `${process.env.PUBLIC_URL}/mediacontent/images/flags/usa.avif`,
+    trackmap: `${process.env.PUBLIC_URL}/mediacontent/images/tracks/veg.avif`,
+    
     trackinfo: 'trackinfo_veg',
   },
 
@@ -460,18 +426,14 @@ const schedule24Data = [
     destination: 'Lossail',
     circuit: 'Losail International Circuit',
     type: 0,
-
     startDate: '2024-11-28T00:00:00',
     endDate: '2024-12-01T23:59:59',
     displayDate: '28.11. - 01.12.2024',
-
-    flag: './mediacontent/images/flags/qua.avif',
-    trackmap: './mediacontent/images/tracks/qua.avif',
+    flag: `${process.env.PUBLIC_URL}/mediacontent/images/flags/qua.avif`,
+    trackmap: `${process.env.PUBLIC_URL}/mediacontent/images/tracks/qua.avif`,
     trackinfo: 'trackinfo_qua',
   },
-
-
-
+  
   {
     name: 'Formula 1 Etihad Airways Abu Dhabi Grand Prix 2024',
     round: '23',
@@ -479,13 +441,11 @@ const schedule24Data = [
     destination: 'Yas Island',
     circuit: 'Yas Marina Circuit',
     type: 0,
-
     startDate: '2024-12-05T00:00:00',
     endDate: '2024-12-08T23:59:59',
     displayDate: '05.12. - 08.12.2024',
-
-    flag: './mediacontent/images/flags/abu.avif',
-    trackmap: './mediacontent/images/tracks/abu.avif',
+    flag: `${process.env.PUBLIC_URL}/mediacontent/images/flags/abu.avif`,
+    trackmap: `${process.env.PUBLIC_URL}/mediacontent/images/tracks/abu.avif`,
     trackinfo: 'trackinfo_abu',
   },
 
@@ -502,7 +462,7 @@ const schedule24Data = [
     endDate: '2024-12-10T13:08:00',
     displayDate: '10.12.2024',
 
-    flag: './mediacontent/logos/f1-red.svg',
+    flag: `${process.env.PUBLIC_URL}/mediacontent/logos/f1-red.svg`,
     trackmap: 'TCB',
     trackinfo: 'TCB',
   },
