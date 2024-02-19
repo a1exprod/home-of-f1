@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/home-of-f1/static/css/main.2b9e484c.css",
-    "main.js": "/home-of-f1/static/js/main.e9f03841.js",
+    "main.js": "/home-of-f1/static/js/main.e674e102.js",
     "static/js/453.a7f16dc3.chunk.js": "/home-of-f1/static/js/453.a7f16dc3.chunk.js",
     "static/media/Formula1-Black.ttf": "/home-of-f1/static/media/Formula1-Black.1c75fea82fc1e7458b40.ttf",
     "static/media/Formula1-Italic.ttf": "/home-of-f1/static/media/Formula1-Italic.a210ce579c0907d1456c.ttf",
@@ -11,11 +11,11 @@
     "static/media/Formula1-Bold_web.ttf": "/home-of-f1/static/media/Formula1-Bold_web.c3b5da7b9ff9b5af429d.ttf",
     "index.html": "/home-of-f1/index.html",
     "main.2b9e484c.css.map": "/home-of-f1/static/css/main.2b9e484c.css.map",
-    "main.e9f03841.js.map": "/home-of-f1/static/js/main.e9f03841.js.map",
+    "main.e674e102.js.map": "/home-of-f1/static/js/main.e674e102.js.map",
     "453.a7f16dc3.chunk.js.map": "/home-of-f1/static/js/453.a7f16dc3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2b9e484c.css",
-    "static/js/main.e9f03841.js"
+    "static/js/main.e674e102.js"
   ]
 }
