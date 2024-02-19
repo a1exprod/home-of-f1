@@ -1,6 +1,6 @@
 // components/countdownNextEvent.jsx
 import React, { useState, useEffect } from 'react';
-import schedule24Datas from './datas/schedule24Datas'; // Adjust the path accordingly
+import schedule24Datas from './datas/schedule24Datas'; 
 
 
 
@@ -43,7 +43,7 @@ const CountdownNextEvent = () => {
   return (
     <>
     <div class="grandprixgraphic-active">
-      <img class="f1graphiccountdown" src="./mediacontent/logos/F1-red.svg" alt="Logo" /> 
+      <img class="f1graphiccountdown" src={nextEvent.flag} alt="Logo" /> 
       <h2 class="countdown">{nextEvent.name}</h2>
       <h3 class="countdown">
         <p class="countdown">Event starts in: </p>

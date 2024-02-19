@@ -195,7 +195,7 @@ const schedule24Data = [
     endDate: '2024-07-07T23:59:59',
     displayDate: '04.07. - 07.07.2024',
 
-    flag: `${process.env.PUBLIC_URL}mediacontent/images/flags/bri.avif`,
+    flag: `${process.env.PUBLIC_URL}/mediacontent/images/flags/bri.avif`,
     trackmap: `${process.env.PUBLIC_URL}/mediacontent/images/tracks/bri.avif`,
     trackinfo: 'trackinfo_bri',
   },
