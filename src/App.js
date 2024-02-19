@@ -17,16 +17,16 @@ import Schedule from './pages/Schedule';
 function App() {
   return (
     <Router>
-      <>
-        <Navbar />
-        <a href="/home-of-f1/pages/schedule.js">Schedule</a>
-        <Routes>
-          <Route path="/home-of-f1/" element={<Home />} />
-          <Route path="/home-of-f1/pages/schedule" element={<Schedule />} />
-          {/* Add more routes for other pages */}
-        </Routes>
-      </>
-    </Router>
+    <>
+      <Navbar />
+      <Link to="/home-of-f1/">Home</Link>
+      <Link to="/home-of-f1/pages/schedule">Schedule</Link>
+      <Routes>
+        <Route path="/home-of-f1/" element={<Home />} />
+        <Route path="/home-of-f1/pages/schedule" element={<Schedule />} />
+      </Routes>
+    </>
+  </Router>
   );
 }
 
