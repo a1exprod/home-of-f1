@@ -40,7 +40,7 @@ function App() {
       <Navbar />
       {page}
       
-      <CountdownNextEvent />
+      
     </>
   );
 }
