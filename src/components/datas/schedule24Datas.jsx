@@ -48,8 +48,8 @@ const schedule24Data = [
       endDate: '2024-03-02T23:59:59',
       displayDate: '28.02. - 02.03.2024',
 
-      flag: './home-of-f1/mediacontent/images/flags/bah.avif',
-      trackmap: './home-of-f1/mediacontent/images/tracks/bah.avif',
+      flag: './mediacontent/images/flags/bah.avif',
+      trackmap: './mediacontent/images/tracks/bah.avif',
       trackinfo: 'trackinfo_bah',
     },
 
@@ -516,23 +516,3 @@ const schedule24Data = [
 
   export default schedule24Data;
 
-
-
-  // Preload images
-function preloadImages(data) {
-  const imagePreloads = [];
-
-  data.forEach(item => {
-    const image = new Image();
-    image.src = item.flag;
-    imagePreloads.push(image);
-  });
-
-  return Promise.all(imagePreloads.map(img => new Promise(resolve => img.onload = resolve)));
-}
-
-// Usage
-preloadImages(schedule24Data).then(() => {
-  // Images are preloaded, you can proceed with your application logic
-  console.log('Images preloaded successfully.');
-});
