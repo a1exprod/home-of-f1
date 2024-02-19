@@ -13,10 +13,12 @@ import CountdownNextEvent from '../components/countdownNextEvent';
 
 
 export default function Home() {
+    console.log("Renderd Countodwn in home");
     return (
         <>
             <h1>Home of Formula uno</h1>
             <CountdownNextEvent />
+            
 
 
 
