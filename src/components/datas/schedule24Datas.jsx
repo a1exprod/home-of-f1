@@ -86,8 +86,8 @@ const schedule24Data = [
     endDate: '2024-03-24T23:59:59',
     displayDate: '21.03. - 24.03.2024',
 
-    flag: '/mediacontent/images/flags/aus.png',
-    trackmap: './mediacontent/images/tracks/aus.avif',
+    flag: `${process.env.PUBLIC_URL}/mediacontent/images/flags/aus.png`,
+    trackmap: `${process.env.PUBLIC_URL}/mediacontent/images/tracks/aus.avif`,
     trackinfo: 'trackinfo_aus',
   },
 
