@@ -7,10 +7,8 @@ export default function Navbar() {
                 <ul>
 
                     <li>
-                        <a class="nav" href="/news">News</a>
-                        <a class="nav" href="/schedule">Schedule</a>
-                        <a class="nav" href="/teamsDrivers">Teams & Drivers</a>
-                        <a class="nav" href="/results">Results</a>
+                    <a className="nav" href="/">Home</a>
+<a className="nav" href="/schedule">Schedule</a>
                     </li>
                 </ul>
             </nav>

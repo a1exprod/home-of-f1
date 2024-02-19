@@ -23,11 +23,11 @@ function App() {
 
   let page
   switch (window.location.pathname) {
-    case "/":
+    case "/home-of-f1/":
       page = <Home />
       break
 
-    case "/schedule":
+    case "/home-of-f1/schedule":
       page = <Schedule />
       break
 
