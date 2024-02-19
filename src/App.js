@@ -21,15 +21,16 @@ import Schedule from './pages/Schedule'
 //Footer can be loaded here - it will be displayed on every Page, like Navbar
 function App() {
 
+  
   let page
   switch (window.location.pathname) {
     case "/home-of-f1/":
-      page = <Home />
-      break
+      page = <Home />;
+      break;
 
     case "/home-of-f1/schedule":
-      page = <Schedule />
-      break
+      page = <Schedule />;
+      break;
 
   }
 
@@ -39,6 +40,7 @@ function App() {
       <Navbar />
       {page}
       
+      <CountdownNextEvent />
     </>
   );
 }
