@@ -19,8 +19,7 @@ function App() {
     <Router>
     <>
       <Navbar />
-      <Link to="/home-of-f1/">Home</Link>
-      <Link to="/home-of-f1/pages/schedule">Schedule</Link>
+
       <Routes>
         <Route path="/home-of-f1/" element={<Home />} />
         <Route path="/home-of-f1/pages/schedule" element={<Schedule />} />
