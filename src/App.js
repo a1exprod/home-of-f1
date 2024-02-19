@@ -19,6 +19,7 @@ function App() {
     <Router>
       <>
         <Navbar />
+        <a href="/home-of-f1/pages/schedule.js">Schedule</a>
         <Routes>
           <Route path="/home-of-f1/" element={<Home />} />
           <Route path="/home-of-f1/pages/schedule" element={<Schedule />} />
