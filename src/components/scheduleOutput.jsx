@@ -16,8 +16,8 @@ const ScheduleOutput = () => {
 
     
     <div>
-      <img src="./mediacontent/images/flags/aut.avif"></img>
-      <h1>2024 FIA Formula 1 World Championship Race Calendar</h1>
+      <img src="./home-of-f1/mediacontent/images/flags/aut.avif"></img>
+      <h1>2024 FIA Formula 1 World Championship Race Calendar 2</h1>
       {events.map((event, index) => {
         const eventStartDate = new Date(event.startDate);
         const eventEndDate = new Date(event.endDate);

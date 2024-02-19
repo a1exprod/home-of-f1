@@ -48,7 +48,7 @@ const schedule24Data = [
       endDate: '2024-03-02T23:59:59',
       displayDate: '28.02. - 02.03.2024',
 
-      flag: './mediacontent/images/flags/bah.avif',
+      flag: './home-of-f1/mediacontent/images/flags/bah.avif',
       trackmap: './home-of-f1/mediacontent/images/tracks/bah.avif',
       trackinfo: 'trackinfo_bah',
     },
