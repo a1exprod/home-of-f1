@@ -29,7 +29,7 @@ const schedule24Data = [
       startDate: '2024-02-21T00:00:00',
       endDate: '2024-02-23T13:08:00',
       displayDate: '21.02. - 23.02.2024',
-      flag: './mediacontent/logos/f1-red.svg',
+      flag: '/mediacontent/logos/f1-red.svg',
       trackmap: 'TCB',
       trackinfo: 'trackinfo_bah',
     },
@@ -48,8 +48,8 @@ const schedule24Data = [
       endDate: '2024-03-02T23:59:59',
       displayDate: '28.02. - 02.03.2024',
 
-      flag: './mediacontent/images/flags/bah.avif',
-      trackmap: './mediacontent/images/tracks/bah.avif',
+      flag: '/mediacontent/images/flags/bah.avif',
+      trackmap: '/mediacontent/images/tracks/bah.avif',
       trackinfo: 'trackinfo_bah',
     },
 
