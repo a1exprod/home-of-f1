@@ -19,31 +19,19 @@ import Schedule from './pages/Schedule'
 
 //Functionallity of Navigation deploys here:
 //Footer can be loaded here - it will be displayed on every Page, like Navbar
+
 function App() {
-
-  
-  let page
-  switch (window.location.pathname) {
-    case "/home-of-f1/":
-      page = <Home />;
-      console.log("Rendered Home component - switch (App.js)");
-      break;
-
-    case "/home-of-f1/schedule":
-      page = <Schedule />;
-      break;
-
-  }
-
-
   return (
-    <>
-      <Navbar />
-      {page}
-      
-      
-    </>
+    <Router>
+      <>
+        <Navbar />
+        <Switch>
+          <Route path="/home-of-f1/" exact component={Home} />
+          <Route path="/home-of-f1/schedule" component={Schedule} />
+
+        </Switch>
+      </>
+    </Router>
   );
 }
-
 export default App;
