@@ -16,7 +16,7 @@ export default function Home() {
     console.log("Renderd Countodwn in home");
     return (
         <>
-            <h1>Home of Formula uno</h1>
+            <h1>Home of Formula 1</h1>
             <CountdownNextEvent />
             
 
